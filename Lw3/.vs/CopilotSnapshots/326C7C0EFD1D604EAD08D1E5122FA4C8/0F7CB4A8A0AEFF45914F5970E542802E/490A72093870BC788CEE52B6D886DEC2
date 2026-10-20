@@ -1,0 +1,21 @@
+﻿using Microsoft.EntityFrameworkCore;
+
+namespace WebLab3.Models
+{
+    public class Agency
+    {
+        public class AgencyContext : DbContext
+        {
+            public DbSet<Clients> Clients { get; set; }
+            public DbSet<Contract> Contracts { get; set; }
+            public DbSet<Employee> Employees { get; set; }
+            public DbSet<Object> Objects { get; set; }
+            public DbSet<TypeHouses> TypeHouses { get; set; }
+
+            public AgencyContext(DbContextOptions<AgencyContext> options) : base(options)
+            {
+                Database.EnsureCreated();
+            }
+        }
+    }
+}

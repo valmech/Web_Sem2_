@@ -1,0 +1,411 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Olha\\Desktop\\Unik\\Web\\Lw3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Olha\\Desktop\\Unik\\Web\\Lw3\\WebLab3\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebLab3\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Olha\\Desktop\\Unik\\Web\\Lw3\\WebLab3\\Views\\Home\\Buy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebLab3\\Views\\Home\\Buy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Olha\\Desktop\\Unik\\Web\\Lw3\\WebLab3\\Models\\Clients.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebLab3\\Models\\Clients.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Olha\\Desktop\\Unik\\Web\\Lw3\\WebLab3\\Views\\Clients\\Delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebLab3\\Views\\Clients\\Delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Olha\\Desktop\\Unik\\Web\\Lw3\\WebLab3\\Data\\ApplicationDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebLab3\\Data\\ApplicationDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Olha\\Desktop\\Unik\\Web\\Lw3\\WebLab3\\Properties\\launchSettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebLab3\\Properties\\launchSettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Olha\\Desktop\\Unik\\Web\\Lw3\\WebLab3\\Controllers\\ClientsController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebLab3\\Controllers\\ClientsController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Olha\\Desktop\\Unik\\Web\\Lw3\\WebLab3\\Controllers\\HomeController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebLab3\\Controllers\\HomeController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Olha\\Desktop\\Unik\\Web\\Lw3\\WebLab3\\Data\\Migrations\\20260324000100_AddAgencyEntities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebLab3\\Data\\Migrations\\20260324000100_AddAgencyEntities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Olha\\Desktop\\Unik\\Web\\Lw3\\WebLab3\\Models\\Contract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebLab3\\Models\\Contract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Olha\\Desktop\\Unik\\Web\\Lw3\\WebLab3\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebLab3\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Olha\\Desktop\\Unik\\Web\\Lw3\\WebLab3\\WebLab3.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebLab3\\WebLab3.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Olha\\Desktop\\Unik\\Web\\Lw3\\WebLab3\\WebLab3.csproj.user||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebLab3\\WebLab3.csproj.user||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Olha\\Desktop\\Unik\\Web\\Lw3\\WebLab3\\Views\\Home\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebLab3\\Views\\Home\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Olha\\Desktop\\Unik\\Web\\Lw3\\WebLab3\\Variant.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebLab3\\Variant.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Olha\\Desktop\\Unik\\Web\\Lw3\\WebLab3\\Models\\Agency.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebLab3\\Models\\Agency.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Olha\\Desktop\\Unik\\Web\\Lw3\\WebLab3\\Models\\Objects.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebLab3\\Models\\Objects.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Olha\\Desktop\\Unik\\Web\\Lw3\\WebLab3\\Models\\TypeHouses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebLab3\\Models\\TypeHouses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Olha\\Desktop\\Unik\\Web\\Lw3\\WebLab3\\bin\\Debug\\net10.0\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebLab3\\bin\\Debug\\net10.0\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Olha\\Desktop\\Unik\\Web\\Lw3\\WebLab3\\Views\\Shared\\_Layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebLab3\\Views\\Shared\\_Layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Olha\\Desktop\\Unik\\Web\\Lw3\\WebLab3\\Views\\Clients\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebLab3\\Views\\Clients\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Olha\\Desktop\\Unik\\Web\\Lw3\\WebLab3\\Views\\Clients\\Create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebLab3\\Views\\Clients\\Create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Olha\\Desktop\\Unik\\Web\\Lw3\\WebLab3\\Views\\Clients\\Edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebLab3\\Views\\Clients\\Edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Olha\\Desktop\\Unik\\Web\\Lw3\\WebLab3\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "WebLab3\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Olha\\Desktop\\Unik\\Web\\Lw3\\WebLab3\\Properties\\launchSettings.json",
+              "RelativeToolTip": "WebLab3\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-10-20T11:56:09.07Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ClientsController.cs",
+              "DocumentMoniker": "C:\\Users\\Olha\\Desktop\\Unik\\Web\\Lw3\\WebLab3\\Controllers\\ClientsController.cs",
+              "RelativeDocumentMoniker": "WebLab3\\Controllers\\ClientsController.cs",
+              "ToolTip": "C:\\Users\\Olha\\Desktop\\Unik\\Web\\Lw3\\WebLab3\\Controllers\\ClientsController.cs",
+              "RelativeToolTip": "WebLab3\\Controllers\\ClientsController.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAAGMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-20T11:43:39.586Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Olha\\Desktop\\Unik\\Web\\Lw3\\WebLab3\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "WebLab3\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\Olha\\Desktop\\Unik\\Web\\Lw3\\WebLab3\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "WebLab3\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-20T11:48:32.888Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Olha\\Desktop\\Unik\\Web\\Lw3\\WebLab3\\Views\\Clients\\Delete.cshtml",
+              "RelativeDocumentMoniker": "WebLab3\\Views\\Clients\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Olha\\Desktop\\Unik\\Web\\Lw3\\WebLab3\\Views\\Clients\\Delete.cshtml",
+              "RelativeToolTip": "WebLab3\\Views\\Clients\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-20T11:49:54.262Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Clients.cs",
+              "DocumentMoniker": "C:\\Users\\Olha\\Desktop\\Unik\\Web\\Lw3\\WebLab3\\Models\\Clients.cs",
+              "RelativeDocumentMoniker": "WebLab3\\Models\\Clients.cs",
+              "ToolTip": "C:\\Users\\Olha\\Desktop\\Unik\\Web\\Lw3\\WebLab3\\Models\\Clients.cs",
+              "RelativeToolTip": "WebLab3\\Models\\Clients.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-20T11:48:33.045Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Buy.cshtml",
+              "DocumentMoniker": "C:\\Users\\Olha\\Desktop\\Unik\\Web\\Lw3\\WebLab3\\Views\\Home\\Buy.cshtml",
+              "RelativeDocumentMoniker": "WebLab3\\Views\\Home\\Buy.cshtml",
+              "ToolTip": "C:\\Users\\Olha\\Desktop\\Unik\\Web\\Lw3\\WebLab3\\Views\\Home\\Buy.cshtml",
+              "RelativeToolTip": "WebLab3\\Views\\Home\\Buy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-20T11:29:55.713Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Olha\\Desktop\\Unik\\Web\\Lw3\\WebLab3\\Program.cs",
+              "RelativeDocumentMoniker": "WebLab3\\Program.cs",
+              "ToolTip": "C:\\Users\\Olha\\Desktop\\Unik\\Web\\Lw3\\WebLab3\\Program.cs",
+              "RelativeToolTip": "WebLab3\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-20T11:17:20.502Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Olha\\Desktop\\Unik\\Web\\Lw3\\WebLab3\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "WebLab3\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Olha\\Desktop\\Unik\\Web\\Lw3\\WebLab3\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "WebLab3\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAswB0AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-20T11:05:37.277Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "20260324000100_AddAgencyEntities.cs",
+              "DocumentMoniker": "C:\\Users\\Olha\\Desktop\\Unik\\Web\\Lw3\\WebLab3\\Data\\Migrations\\20260324000100_AddAgencyEntities.cs",
+              "RelativeDocumentMoniker": "WebLab3\\Data\\Migrations\\20260324000100_AddAgencyEntities.cs",
+              "ToolTip": "C:\\Users\\Olha\\Desktop\\Unik\\Web\\Lw3\\WebLab3\\Data\\Migrations\\20260324000100_AddAgencyEntities.cs",
+              "RelativeToolTip": "WebLab3\\Data\\Migrations\\20260324000100_AddAgencyEntities.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-20T11:49:49.763Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Contract.cs",
+              "DocumentMoniker": "C:\\Users\\Olha\\Desktop\\Unik\\Web\\Lw3\\WebLab3\\Models\\Contract.cs",
+              "RelativeDocumentMoniker": "WebLab3\\Models\\Contract.cs",
+              "ToolTip": "C:\\Users\\Olha\\Desktop\\Unik\\Web\\Lw3\\WebLab3\\Models\\Contract.cs",
+              "RelativeToolTip": "WebLab3\\Models\\Contract.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-20T11:48:33.124Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Objects.cs",
+              "DocumentMoniker": "C:\\Users\\Olha\\Desktop\\Unik\\Web\\Lw3\\WebLab3\\Models\\Objects.cs",
+              "RelativeDocumentMoniker": "WebLab3\\Models\\Objects.cs",
+              "ToolTip": "C:\\Users\\Olha\\Desktop\\Unik\\Web\\Lw3\\WebLab3\\Models\\Objects.cs",
+              "RelativeToolTip": "WebLab3\\Models\\Objects.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAABBwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-20T11:48:33.24Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "TypeHouses.cs",
+              "DocumentMoniker": "C:\\Users\\Olha\\Desktop\\Unik\\Web\\Lw3\\WebLab3\\Models\\TypeHouses.cs",
+              "RelativeDocumentMoniker": "WebLab3\\Models\\TypeHouses.cs",
+              "ToolTip": "C:\\Users\\Olha\\Desktop\\Unik\\Web\\Lw3\\WebLab3\\Models\\TypeHouses.cs",
+              "RelativeToolTip": "WebLab3\\Models\\TypeHouses.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAABBwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-20T11:48:33.319Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Olha\\Desktop\\Unik\\Web\\Lw3\\WebLab3\\bin\\Debug\\net10.0\\appsettings.json",
+              "RelativeDocumentMoniker": "WebLab3\\bin\\Debug\\net10.0\\appsettings.json",
+              "ToolTip": "C:\\Users\\Olha\\Desktop\\Unik\\Web\\Lw3\\WebLab3\\bin\\Debug\\net10.0\\appsettings.json",
+              "RelativeToolTip": "WebLab3\\bin\\Debug\\net10.0\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAABRwAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-10-20T11:48:53.663Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Agency.cs",
+              "DocumentMoniker": "C:\\Users\\Olha\\Desktop\\Unik\\Web\\Lw3\\WebLab3\\Models\\Agency.cs",
+              "RelativeDocumentMoniker": "WebLab3\\Models\\Agency.cs",
+              "ToolTip": "C:\\Users\\Olha\\Desktop\\Unik\\Web\\Lw3\\WebLab3\\Models\\Agency.cs",
+              "RelativeToolTip": "WebLab3\\Models\\Agency.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-20T11:48:32.968Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Olha\\Desktop\\Unik\\Web\\Lw3\\WebLab3\\Views\\Clients\\Edit.cshtml",
+              "RelativeDocumentMoniker": "WebLab3\\Views\\Clients\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Olha\\Desktop\\Unik\\Web\\Lw3\\WebLab3\\Views\\Clients\\Edit.cshtml",
+              "RelativeToolTip": "WebLab3\\Views\\Clients\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-20T11:49:12.442Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Olha\\Desktop\\Unik\\Web\\Lw3\\WebLab3\\Views\\Clients\\Create.cshtml",
+              "RelativeDocumentMoniker": "WebLab3\\Views\\Clients\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Olha\\Desktop\\Unik\\Web\\Lw3\\WebLab3\\Views\\Clients\\Create.cshtml",
+              "RelativeToolTip": "WebLab3\\Views\\Clients\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-20T11:49:08.864Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Olha\\Desktop\\Unik\\Web\\Lw3\\WebLab3\\Views\\Clients\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebLab3\\Views\\Clients\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Olha\\Desktop\\Unik\\Web\\Lw3\\WebLab3\\Views\\Clients\\Index.cshtml",
+              "RelativeToolTip": "WebLab3\\Views\\Clients\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-20T11:49:05.226Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Olha\\Desktop\\Unik\\Web\\Lw3\\WebLab3\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "WebLab3\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Olha\\Desktop\\Unik\\Web\\Lw3\\WebLab3\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "WebLab3\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAEAAAAAAAAAAABBwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-20T11:49:01.574Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "WebLab3.csproj.user",
+              "DocumentMoniker": "C:\\Users\\Olha\\Desktop\\Unik\\Web\\Lw3\\WebLab3\\WebLab3.csproj.user",
+              "RelativeDocumentMoniker": "WebLab3\\WebLab3.csproj.user",
+              "ToolTip": "C:\\Users\\Olha\\Desktop\\Unik\\Web\\Lw3\\WebLab3\\WebLab3.csproj.user",
+              "RelativeToolTip": "WebLab3\\WebLab3.csproj.user",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003464|",
+              "WhenOpened": "2026-10-20T11:17:18.027Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "WebLab3.csproj",
+              "DocumentMoniker": "C:\\Users\\Olha\\Desktop\\Unik\\Web\\Lw3\\WebLab3\\WebLab3.csproj",
+              "RelativeDocumentMoniker": "WebLab3\\WebLab3.csproj",
+              "ToolTip": "C:\\Users\\Olha\\Desktop\\Unik\\Web\\Lw3\\WebLab3\\WebLab3.csproj",
+              "RelativeToolTip": "WebLab3\\WebLab3.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-10-20T11:17:13.683Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Olha\\Desktop\\Unik\\Web\\Lw3\\WebLab3\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebLab3\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Olha\\Desktop\\Unik\\Web\\Lw3\\WebLab3\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "WebLab3\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-20T11:39:07.318Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Olha\\Desktop\\Unik\\Web\\Lw3\\WebLab3\\appsettings.json",
+              "RelativeDocumentMoniker": "WebLab3\\appsettings.json",
+              "ToolTip": "C:\\Users\\Olha\\Desktop\\Unik\\Web\\Lw3\\WebLab3\\appsettings.json",
+              "RelativeToolTip": "WebLab3\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-10-20T11:45:09.884Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Variant.txt",
+              "DocumentMoniker": "C:\\Users\\Olha\\Desktop\\Unik\\Web\\Lw3\\WebLab3\\Variant.txt",
+              "RelativeDocumentMoniker": "WebLab3\\Variant.txt",
+              "ToolTip": "C:\\Users\\Olha\\Desktop\\Unik\\Web\\Lw3\\WebLab3\\Variant.txt",
+              "RelativeToolTip": "WebLab3\\Variant.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2026-10-20T11:04:24.433Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

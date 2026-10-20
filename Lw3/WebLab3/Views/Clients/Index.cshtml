@@ -1,0 +1,18 @@
+@model IEnumerable<WebLab3.Models.Clients>
+@{ ViewData["Title"] = "Клієнти"; }
+<h1>Клієнти</h1>
+<p><a asp-action="Create" class="btn btn-primary">Додати клієнта</a></p>
+<table class="table table-striped">
+	<thead><tr><th>ПІБ</th><th>Телефон</th><th>Тип</th><th>Дії</th></tr></thead>
+	<tbody>
+	@foreach (var client in Model)
+	{
+		<tr>
+			<td>@client.LastName @client.FirstName @client.MiddleName</td>
+			<td>@client.Phone</td>
+			<td>@client.ClientType</td>
+			<td><a asp-action="Edit" asp-route-id="@client.Id">Змінити</a> | <a asp-action="Delete" asp-route-id="@client.Id">Видалити</a></td>
+		</tr>
+	}
+	</tbody>
+</table>

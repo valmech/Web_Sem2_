@@ -1,0 +1,15 @@
+﻿namespace WebLab3.Models
+{
+    public class Contract
+    {
+        public int Id { get; set; }
+        public string data { get; set; }
+        public string objects { get; set; }
+        public string agent { get; set; }
+        public string client { get; set; }
+        public float sum { get; set; }
+        public float prosent { get; set; }
+        public string city { get; set; }
+
+    }
+}
