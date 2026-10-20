@@ -1,0 +1,124 @@
+﻿using Microsoft.AspNetCore.Mvc;
+using System.Diagnostics;
+using WebLab3.Models;
+using WebLab3.Data;
+
+namespace WebLab3.Controllers
+{
+    public class HomeController : Controller
+    {
+        public IActionResult Index()
+        {
+            return View();
+        }
+
+        public IActionResult Privacy()
+        {
+            return View();
+        }
+
+        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
+        public IActionResult Error()
+        {
+            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+        }
+        private readonly ApplicationDbContext _context;
+
+        // Внедряем контекст базы данных через конструктор
+        public ClientsController(ApplicationDbContext context)
+        {
+            _context = context;
+        }
+
+        // 1. READ: Список всех записей
+        public async Task<IActionResult> Index()
+        {
+            var clients = await _context.Clients.ToListAsync();
+            return View(clients);
+        }
+
+        // 2. CREATE (GET): Открытие формы добавления
+        public IActionResult Create()
+        {
+            return View();
+        }
+
+        // 3. CREATE (POST): Сохранение новой записи в бд
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Create(Client client)
+        {
+            if (ModelState.IsValid)
+            {
+                _context.Add(client);
+                await _context.SaveChangesAsync();
+                return RedirectToAction(nameof(Index));
+            }
+            return View(client);
+        }
+
+        // 4. EDIT (GET): Открытие формы редактирования
+        public async Task<IActionResult> Edit(int? id)
+        {
+            if (id == null) return NotFound();
+
+            var client = await _context.Clients.FindAsync(id);
+            if (client == null) return NotFound();
+
+            return View(client);
+        }
+
+        // 5. EDIT (POST): Сохранение изменений
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Edit(int id, Client client)
+        {
+            if (id != client.Id) return NotFound();
+
+            if (ModelState.IsValid)
+            {
+                try
+                {
+                    _context.Update(client);
+                    await _context.SaveChangesAsync();
+                }
+                catch (DbUpdateConcurrencyException)
+                {
+                    if (!_context.Clients.Any(e => e.Id == client.Id))
+                        return NotFound();
+                    else
+                        throw;
+                }
+                return RedirectToAction(nameof(Index));
+            }
+            return View(client);
+        }
+
+        // 6. DELETE (GET): Подтверждение удаления
+        public async Task<IActionResult> Delete(int? id)
+        {
+            if (id == null) return NotFound();
+
+            var client = await _context.Clients
+                .FirstOrDefaultAsync(m => m.Id == id);
+            if (client == null) return NotFound();
+
+            return View(client);
+        }
+
+        // 7. DELETE (POST): Удаление записи из бд
+        [HttpPost, ActionName("Delete")]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> DeleteConfirmed(int id)
+        {
+            var client = await _context.Clients.FindAsync(id);
+            if (client != null)
+            {
+                _context.Clients.Remove(client);
+            }
+
+            await _context.SaveChangesAsync();
+            return RedirectToAction(nameof(Index));
+        }
+    }
+}

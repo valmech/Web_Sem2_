@@ -1,0 +1,13 @@
+@model WebLab3.Models.Clients
+@{ ViewData["Title"] = "Редагування клієнта"; }
+<h1>Редагування клієнта</h1>
+<form asp-action="Edit" method="post">
+	<input type="hidden" asp-for="Id" />
+	<div asp-validation-summary="ModelOnly" class="text-danger"></div>
+	<label asp-for="LastName">Прізвище</label><input asp-for="LastName" class="form-control" />
+	<label asp-for="FirstName">Ім'я</label><input asp-for="FirstName" class="form-control" />
+	<label asp-for="MiddleName">По батькові</label><input asp-for="MiddleName" class="form-control" />
+	<label asp-for="Phone">Телефон</label><input asp-for="Phone" class="form-control" />
+	<label asp-for="ClientType">Тип клієнта</label><select asp-for="ClientType" class="form-control"><option>Покупець</option><option>Продавець</option></select>
+	<button type="submit" class="btn btn-primary mt-3">Зберегти</button>
+</form>

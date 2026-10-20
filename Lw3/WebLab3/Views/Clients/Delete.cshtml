@@ -1,0 +1,9 @@
+@model WebLab3.Models.Clients
+@{ ViewData["Title"] = "Видалення клієнта"; }
+<h1>Видалення клієнта</h1>
+<p>Ви дійсно хочете видалити клієнта <strong>@Model.LastName @Model.FirstName</strong>?</p>
+<form asp-action="Delete" method="post">
+	<input type="hidden" asp-for="Id" />
+	<button type="submit" class="btn btn-danger">Видалити</button>
+	<a asp-action="Index" class="btn btn-secondary">Скасувати</a>
+</form>

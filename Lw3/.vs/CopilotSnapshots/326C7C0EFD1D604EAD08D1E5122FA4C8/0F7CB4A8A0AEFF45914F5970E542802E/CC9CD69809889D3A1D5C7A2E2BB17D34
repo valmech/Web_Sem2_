@@ -1,0 +1,11 @@
+﻿namespace WebLab3.Models
+{
+    public class TypeHouses
+    {
+        public int id { get; set; }
+        public string apartment { get; set; }
+        public string house { get; set; }
+        public string office { get; set; }
+        public string land { get; set; }
+    }
+}

@@ -1,0 +1,91 @@
+﻿using Microsoft.EntityFrameworkCore.Migrations;
+
+#nullable disable
+
+namespace WebLab3.Data.Migrations;
+
+public partial class AddAgencyEntities : Migration
+{
+    protected override void Up(MigrationBuilder migrationBuilder)
+    {
+        migrationBuilder.CreateTable(
+            name: "Clients",
+            columns: table => new
+            {
+                Id = table.Column<int>(nullable: false).Annotation("SqlServer:ValueGenerationStrategy", 1),
+                LastName = table.Column<string>(nullable: false),
+                FirstName = table.Column<string>(nullable: false),
+                MiddleName = table.Column<string>(nullable: false),
+                Phone = table.Column<string>(nullable: false),
+                ClientType = table.Column<string>(nullable: false)
+            }, constraints: table => table.PrimaryKey("PK_Clients", x => x.Id));
+
+        migrationBuilder.CreateTable(
+            name: "Employees",
+            columns: table => new
+            {
+                Id = table.Column<int>(nullable: false).Annotation("SqlServer:ValueGenerationStrategy", 1),
+                LastName = table.Column<string>(nullable: false),
+                FirstName = table.Column<string>(nullable: false),
+                MiddleName = table.Column<string>(nullable: false),
+                Age = table.Column<int>(nullable: false),
+                Position = table.Column<string>(nullable: false),
+                Phone = table.Column<string>(nullable: false)
+            }, constraints: table => table.PrimaryKey("PK_Employees", x => x.Id));
+
+        migrationBuilder.CreateTable(
+            name: "TypeHouses",
+            columns: table => new
+            {
+                Id = table.Column<int>(nullable: false).Annotation("SqlServer:ValueGenerationStrategy", 1),
+                Name = table.Column<string>(nullable: false)
+            }, constraints: table => table.PrimaryKey("PK_TypeHouses", x => x.Id));
+
+        migrationBuilder.CreateTable(
+            name: "Objects",
+            columns: table => new
+            {
+                Id = table.Column<int>(nullable: false).Annotation("SqlServer:ValueGenerationStrategy", 1),
+                Address = table.Column<string>(nullable: false),
+                Area = table.Column<decimal>(nullable: false),
+                Price = table.Column<decimal>(nullable: false),
+                Rooms = table.Column<int>(nullable: false),
+                Floor = table.Column<int>(nullable: false),
+                Condition = table.Column<string>(nullable: false),
+                TypeHouseId = table.Column<int>(nullable: false)
+            }, constraints: table =>
+            {
+                table.PrimaryKey("PK_Objects", x => x.Id);
+                table.ForeignKey("FK_Objects_TypeHouses_TypeHouseId", x => x.TypeHouseId, "TypeHouses", "Id", onDelete: ReferentialAction.Cascade);
+            });
+
+        migrationBuilder.CreateTable(
+            name: "Contracts",
+            columns: table => new
+            {
+                Id = table.Column<int>(nullable: false).Annotation("SqlServer:ValueGenerationStrategy", 1),
+                DealDate = table.Column<DateTime>(nullable: false),
+                ObjectId = table.Column<int>(nullable: false),
+                EmployeeId = table.Column<int>(nullable: false),
+                ClientId = table.Column<int>(nullable: false),
+                DealAmount = table.Column<decimal>(nullable: false),
+                CommissionAmount = table.Column<decimal>(nullable: false),
+                City = table.Column<string>(nullable: false)
+            }, constraints: table =>
+            {
+                table.PrimaryKey("PK_Contracts", x => x.Id);
+                table.ForeignKey("FK_Contracts_Objects_ObjectId", x => x.ObjectId, "Objects", "Id", onDelete: ReferentialAction.Restrict);
+                table.ForeignKey("FK_Contracts_Employees_EmployeeId", x => x.EmployeeId, "Employees", "Id", onDelete: ReferentialAction.Restrict);
+                table.ForeignKey("FK_Contracts_Clients_ClientId", x => x.ClientId, "Clients", "Id", onDelete: ReferentialAction.Restrict);
+            });
+    }
+
+    protected override void Down(MigrationBuilder migrationBuilder)
+    {
+        migrationBuilder.DropTable(name: "Contracts");
+        migrationBuilder.DropTable(name: "Objects");
+        migrationBuilder.DropTable(name: "Clients");
+        migrationBuilder.DropTable(name: "Employees");
+        migrationBuilder.DropTable(name: "TypeHouses");
+    }
+}

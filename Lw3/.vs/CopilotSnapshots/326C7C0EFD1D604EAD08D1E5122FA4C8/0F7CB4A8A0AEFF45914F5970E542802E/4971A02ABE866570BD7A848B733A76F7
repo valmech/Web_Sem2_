@@ -1,0 +1,13 @@
+﻿namespace WebLab3.Models
+{
+    public class Objects
+    {
+        public int Id { get; set; }
+        public string Address { get; set; }
+        public float square { get; set; }
+        public float Price { get; set; }
+        public int Rooms { get; set; }
+        public int floor { get; set; }
+        public string state { get; set; }
+    }
+}
